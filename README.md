@@ -1,10 +1,13 @@
 # PopcornAndSoda
-#Versão 2.0
+#Versão 1.0
 
--"Popcorn and Soda" app allows the users to record their favorite movies or tv contents, creating a mini version of "_Netflix_".
+A aplicaçao "Popcorn and Soda" permite aos utilizadores adicionar os seus filmes e séries favoritos, ou de outra forma, tem também como ojetivo de informar um utilizador sobre um destes. A aplicação terá,a possibilidade de adicionar e remover os filmes ja vistos ou ainda adicionar/remover dos favoritos... Cada filme terá uma descrição, tal como o nome do autor, ano e trailer.
+Para além disso, o utlizadores pode saber mais acerca dos principais artistas do mundo da realizaçao.
 
-- It consists in a local db, where users may record movies, tv shows and respective producer data, in a CRUD functional SQLite db and JAVA as programming language.
+A base de dados é constituida pelas seguintes tabelas:
 
-- The information about the contents are related with each name, year of release, producers, trailers in video, etc.
+FILMES: id_filme, nome, tipo, autor, classificação, ano;
 
-- The app provides a clean way to add movies on the favorite´s list.
+SÉRIES: id_series, nome, tipo, temporadas, autor, classificação, ano;
+
+ARTISTAS: id_autor, nome, ano_nascimento ;
